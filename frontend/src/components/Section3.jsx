@@ -18,7 +18,6 @@ const Section3 = ({ data, currplaying, topsongs, favorites, toggleFavorite }) =>
   };
 
   const currentSong = data && data[currplaying];
-
   return (
     <div className="section3">
       <div className="links">
